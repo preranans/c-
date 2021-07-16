@@ -1,0 +1,15 @@
+//C++ program to check the age of a user and display if he/she is eligible to vote or not
+#include <iostream>
+using namespace std;
+
+int main()
+{
+     int age;
+    cout<<"Enter the age of the user: ";
+    cin>>age;
+    if (age>=18)
+        cout<<"\n You are eligible to vote!";
+    else
+        cout<<"\n Sorry, you are not eligible to vote.";
+  return 0;
+}
